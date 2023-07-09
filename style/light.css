@@ -1,0 +1,12 @@
+/* Modo Claro */
+body.light-mode {
+    background-color: #f5f5f5;
+    color: #333333;
+  }
+  
+  /* Modo Escuro */
+  body.dark-mode {
+    background-color: #333333;
+    color: #f5f5f5;
+  }
+  
