@@ -1,7 +1,50 @@
-.button-icon {
-    width: 20px; /* Defina a largura desejada */
-    height: 20px; /* Defina a altura desejada */
-    vertical-align: middle;
-    margin-right: 5px; /* Ajuste a margem conforme necessário */
-  }
-  
+
+.custom-button {
+  padding: 15px 15px 15px 55px; 
+  background-color: #f7f9fc;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+  text-align: center;
+  letter-spacing: 1px;
+
+}
+
+.custom-button:hover {
+  color: #000000;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+.linkedin {
+  background-image: url('../assets/icons/linkedin.svg');
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-position: 15px 40%; 
+}
+
+.github {
+  background-image: url('../assets/icons/github.svg');
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-position: 15px 40%; 
+}
+
+.link {
+  background-image: url('../assets/icons/box-arrow-up-right.svg');
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-position: 15px 40%; 
+  background-color: rgb(255, 255, 255);
+}
+
+.pdf {
+  background-image: url('../assets/icons/filetype-pdf.svg');
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-position: 15px 40%; 
+  background-color: rgb(255, 255, 255);
+}

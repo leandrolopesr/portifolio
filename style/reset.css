@@ -1,7 +1,7 @@
-/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css  @import url(./nav.css);
+*/
 @import url(./buton.css);
 @import url(./light.css);
-@import url(./nav.css);
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
 
 /* Document
@@ -84,6 +84,11 @@
   
   a {
     background-color: transparent;
+    color: rgb(17, 17, 17);
+  }
+
+  a:hover{
+    color: rgb(117, 34, 133);
   }
   
   /**
@@ -356,3 +361,15 @@
   [hidden] {
     display: none;
   }
+
+
+  a {
+    text-decoration: none; /* Remove a linha (underline) que aparece por padrão */
+  }
+  
+  a:hover {
+    text-decoration: none; /* Desabilita o efeito de hover automático nos links */
+  }
+  
+  
+  
