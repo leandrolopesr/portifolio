@@ -1,0 +1,20 @@
+#text::after{
+    content: "|";
+    margin-right: 5px;
+    opacity: 1;
+    animation: split .8s infinite;
+}
+
+@keyframes split {
+    0%, 100%{
+        opacity: 1;
+    }
+
+    50%{
+        opacity: 0;
+    }
+}
+
+#text, #text::after{
+  color:  #004AAD;
+}

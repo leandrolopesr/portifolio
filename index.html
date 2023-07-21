@@ -8,9 +8,9 @@
   <link rel="stylesheet" href="./style/reset.css">
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
@@ -42,8 +42,13 @@
         <div class="col-md-2"></div>
         <div class="col-md-5 my-5 d-flex align-items-center">
           <div>
-            <h1 class="font-weight-bold">Olá, eu sou Leandro</h1>
-            <p>Seja bem-vindo ao meu portfólio. Sou um desenvolvedor apaixonado por criar soluções incríveis.</p>
+            <h1 class="font-weight-bold">Olá! eu sou Leandro</h1>
+
+        
+         
+            <p><span id="text"></span>apaixonado pelo mundo da programação.</p>
+
+            <p>Fico feliz em compartilhar meus projetos com você. Seja bem-vindo ao meu portfólio!</p>
             <div class="d-flex">
               <a href="https://www.linkedin.com/in/leandro-lopesr/" target="_blank" class="custom-button mr-3 linkedin">LinkDin</a>
             
@@ -64,21 +69,24 @@
   <section id="about" class="bg-light py-5">
     <div class="container">
       <div class="row">
-        <div class="col-md-6">
-          <img src="./assets/main.png" alt="Sobre" class="img-fluid rounded-circle">
-
+        <div class="col-md-5">
+          <div class="d-flex flex-column align-items-center">
+          <img src="./assets/main.png" alt="Sobre" class="img-fluid rounded p-2 bg-info m-5">
+            <a href="./assets/archives/Curriculo.pdf" class="button pdf" download>Curriculo</a>
         </div>
-        <div class="col-md-6 d-flex align-items-center">
+      </div>
+        <div class="col-md-2"></div>
+        <div class="col-md-5 p-4 d-flex align-items-center">
           <div>
             <h2 class="font-weight-bold">Sobre mim</h2>
-            <p>Olá! Meu nome é Leandro. Sou um estudante apaixonado por tecnologia e atualmente estou cursando o técnico em informática no Senac. Meu foco principal é o desenvolvimento backend com Java.</p>
-          <p>Estou constantemente buscando aprender e aprimorar minhas habilidades de programação.</p>
-          <p>Além do Java, também tenho conhecimentos em front-end com HTML5, CSS3, JavaScript e Bootstrap. Estou sempre buscando novos desafios e oportunidades para aplicar meus conhecimentos e contribuir com projetos interessantes.</p>
+            <p>Tenho 21 anos. Atualmente, estou cursando Técnico no Senac focado em desenvolvimento de software.</p>
+            <p>Este portfólio foi criado para compartilhar meus projetos e mostrar meu progresso como desenvolvedor. Sinta-se à vontade para explorar os projetos e conhecer mais sobre meu trabalho!</p>
+            <p>Se você tiver alguma dúvida ou oportunidade de colaboração, não hesite em entrar em contato comigo. Estou sempre aberto a novas experiências e desafios.</p>
+        </div>
         
-        <p>Estou animado com a possibilidade de compartilhar meu trabalho e projetos com você. Seja bem-vindo ao meu portfólio!</p>
-          <div class="pt-3">
-            <a href="./assets/archives/Curriculo.pdf" class="custom-button pdf" download>Curriculo</a>
-          </div>
+    </div>
+   
+          
   
         </div>
           
@@ -116,8 +124,7 @@
           <div class="carousel-item">
             <img src="./assets/banner/ipetSite.png" alt="Projeto 3" class="img-fluid">
             <div class="carousel-caption">
-              <h4>Projeto 3</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+             
             </div>
           </div>
         </div>
@@ -163,5 +170,6 @@
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <script src="./script/write.js"></script>
 </body>
 </html>
