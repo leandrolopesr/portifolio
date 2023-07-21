@@ -4,7 +4,7 @@ function enableLightMode() {
     document.body.classList.add("light-mode");
   }
   
-  // Função para alternar para o modo
+  // Função para alternar para o modo escuro
   function enableDarkMode() {
     document.body.classList.remove("light-mode");
     document.body.classList.add("dark-mode");
