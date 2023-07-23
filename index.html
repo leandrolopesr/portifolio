@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="./assets/icons/title/letter-l .png"/>
   <title>Portifólio | Leandro Lopes</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="./style/reset.css">
@@ -17,7 +18,13 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav m-3">
           <li class="nav-item">
+            <a class="nav-link font-weight-bold" href="#intro">Home</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link font-weight-bold" href="#about">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link font-weight-bold" href="#skills">Skills</a>
           </li>
           <li class="nav-item">
             <a class="nav-link font-weight-bold" href="#projects">Projetos</a>
@@ -37,7 +44,7 @@
 
       <div class="row">
         <div class="col-md-5 my-5">
-          <img src="./assets/amico.svg" alt="Foto de perfil" class="img-fluid">
+          <img src="./assets/main/amico.svg" alt="imagem de um programador sentado em cima de um computador gigante" class="img-fluid">
         </div>
         <div class="col-md-2"></div>
         <div class="col-md-5 my-5 d-flex align-items-center">
@@ -69,13 +76,13 @@
   <section id="about" class="bg-light py-5">
     <div class="container">
       <div class="row">
-        <div class="col-md-5">
+        <div class="col-md-4">
           <div class="d-flex flex-column align-items-center">
-          <img src="./assets/main.png" alt="Sobre" class="img-fluid rounded p-2 bg-info m-5">
+          <img src="./assets/main/main.png" alt="Foto do Leandro Lopes" class="img-fluid rounded p-2 bg-info m-5">
             <a href="./assets/archives/Curriculo.pdf" class="button pdf" download>Curriculo</a>
         </div>
       </div>
-        <div class="col-md-2"></div>
+        <div class="col-md-3"></div>
         <div class="col-md-5 p-4 d-flex align-items-center">
           <div>
             <h2 class="font-weight-bold">Sobre mim</h2>
@@ -97,8 +104,97 @@
     </div>
   </section>
 
- <section id="projects" class="py-5">
-  <div class="container mt-5">
+  <section id="skills" class="py-5">
+    <div class="container">
+      <h2 class="font-weight-bold mb-4 text-center">Skills</h2>
+      <div class="row py-4">
+
+        <!-- HTML -->
+        <div class="col-md-3 mb-4">
+          <div class="card custom-card">
+            <div class="card-body text-center">
+              <img src="./assets/icons/skils/html/htmlB.png" onmouseover="this.src='./assets/icons/skils/html/html.png'" onmouseout="this.src='./assets/icons/skils/html/htmlB.png'">
+              <h5 class="card-title mt-3">HTML</h5>
+            </div>
+          </div>
+        </div>
+
+        <!-- CSS -->
+        <div class="col-md-3 mb-4">
+          <div class="card custom-card">
+            <div class="card-body text-center">
+              <img src="./assets/icons/skils/css/cssB.png" onmouseover="this.src='./assets/icons/skils/css/css.png'" onmouseout="this.src='./assets/icons/skils/css/cssB.png'">
+              <h5 class="card-title mt-3" >CSS</h5>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bootstrap -->
+        <div class="col-md-3 mb-4">
+          <div class="card custom-card">
+            <div class="card-body text-center">
+              <img src="./assets/icons/skils/bootstrap/bootstrapB.png" onmouseover="this.src='./assets/icons/skils/bootstrap/bootstrap.png'" onmouseout="this.src='./assets/icons/skils/bootstrap/bootstrapB.png'">
+              <h5 class="card-title mt-3">Bootstrap</h5>
+            </div>
+          </div>
+        </div>
+
+        <!-- JavaScript -->
+        <div class="col-md-3 mb-4">
+          <div class="card custom-card">
+            <div class="card-body text-center">
+              <img src="./assets/icons/skils/javascript/jsB.png" onmouseover="this.src='./assets/icons/skils/javascript/js.png'" onmouseout="this.src='./assets/icons/skils/javascript/jsB.png'">
+              <h5 class="card-title mt-3">JavaScript</h5>
+            </div>
+          </div>
+        </div>
+
+        <!-- Angular -->
+        <div class="col-md-3 mb-4">
+          <div class="card custom-card">
+            <div class="card-body text-center">
+              <img src="./assets/icons/skils/angular/angularB.png" onmouseover="this.src='./assets/icons/skils/angular/angular.png'" onmouseout="this.src='./assets/icons/skils/angular/angularB.png'">
+              <h5 class="card-title mt-3">Angular</h5>
+            </div>
+          </div>
+        </div>
+
+        <!-- Java -->
+        <div class="col-md-3 mb-4">
+          <div class="card custom-card">
+            <div class="card-body text-center">
+              <img src="./assets/icons/skils/java/javaB.png" onmouseover="this.src='./assets/icons/skils/java/java.png'" onmouseout="this.src='./assets/icons/skils/java/javaB.png'">
+              <h5 class="card-title mt-3">Java</h5>
+            </div>
+          </div>
+        </div>
+
+        <!-- Spring Boot -->
+        <div class="col-md-3 mb-4">
+          <div class="card custom-card">
+            <div class="card-body text-center">
+              <img src="./assets/icons/skils/spring/springB.png" onmouseover="this.src='./assets/icons/skils/spring/spring.png'" onmouseout="this.src='./assets/icons/skils/spring/springB.png'">
+              <h5 class="card-title mt-3">Spring Boot</h5>
+            </div>
+          </div>
+        </div>
+
+        <!-- SQL -->
+        <div class="col-md-3 mb-4">
+          <div class="card custom-card">
+            <div class="card-body text-center">
+              <img src="./assets/icons/skils/sql/sqlB.png" onmouseover="this.src='./assets/icons/skils/sql/sql.png'" onmouseout="this.src='./assets/icons/skils/sql/sqlB.png'">
+
+              <h5 class="card-title mt-3">SQL</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ <section id="projects" class="py-5 bg-light">
+  <div class="container">
     <h2 class="font-weight-bold mb-4 text-center">Projetos</h2>
     <div id="project-carousel" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
@@ -111,14 +207,14 @@
         <!-- Primeiro Card -->
         <div class="carousel-item active">
           <div class="card w-75 mx-auto">
-            <img class="card-img-top" src="./assets/banner/ipetSite.png" alt="Imagem do Card">
+            <img class="card-img-top card-img-custom" src="./assets/banner/ipetSite.png" alt="Imagem do Card">
             <div class="card-body">
         
               <div class="row">
                 <div class="col-md-9">
                   <h5 class="card-title"> <strong>IPET - Site de adoção de animais</strong></h5>
                   <p class="card-text">Site criado para o projeto integrador do SENAC</p>
-                  <p>Técnologias: HTML | CSS | JavaScript | PHP</p>
+                  <p>Técnologias: HTML | CSS | JavaScript | PHP | MySQL</p>
                 </div>
                 <div class="col-md-3 d-flex justify-content-center align-items-center">
                   <a href="https://leandrolopesr.github.io/projeto_ipet_senac/" target="_blank" class="btn btn-info">
@@ -134,17 +230,17 @@
         <!-- Segundo Card -->
         <div class="carousel-item">
           <div class="card w-75 mx-auto">
-            <img class="card-img-top" src="./assets/banner/ipetSite.png" alt="Imagem do Card">
+            <img class="card-img-top card-img-custom" src="./assets/banner/steam.png" alt="Imagem do Card">
             <div class="card-body">
         
               <div class="row">
                 <div class="col-md-9">
-                  <h5 class="card-title"> <strong>IPET - Site de adoção de animais</strong></h5>
-                  <p class="card-text">Site criado para o projeto integrador do SENAC</p>
-                  <p>Técnologias: HTML | CSS | JavaScript | PHP</p>
+                  <h5 class="card-title"> <strong>Steam Card</strong></h5>
+                  <p class="card-text">Pequeno projeto para aplicar meus conhecimentos</p>
+                  <p>Técnologias: HTML | CSS | JavaScript</p>
                 </div>
                 <div class="col-md-3 d-flex justify-content-center align-items-center">
-                  <a href="https://leandrolopesr.github.io/projeto_ipet_senac/" target="_blank" class="btn btn-info">
+                  <a href="https://steam-card-sigma.vercel.app/" target="_blank" class="btn btn-info">
                     Link <i class="fas fa-external-link-alt ml-2"></i>
                   </a>
                 </div>
@@ -158,17 +254,17 @@
         <!-- Terceiro Card -->
         <div class="carousel-item">
           <div class="card w-75 mx-auto">
-            <img class="card-img-top" src="./assets/banner/ipetSite.png" alt="Imagem do Card">
+            <img class="card-img-top card-img-custom" src="./assets/banner/ipetJava.png" alt="Imagem do Card">
             <div class="card-body">
         
               <div class="row">
                 <div class="col-md-9">
-                  <h5 class="card-title"> <strong>IPET - Site de adoção de animais</strong></h5>
-                  <p class="card-text">Site criado para o projeto integrador do SENAC</p>
-                  <p>Técnologias: HTML | CSS | JavaScript | PHP</p>
+                  <h5 class="card-title"> <strong>IPET - Aplicação Desktop de Cadastro Para Canil</strong></h5>
+                  <p class="card-text">Aplicação  criada no 2º projeto integrador do SENAC</p>
+                  <p>Técnologias: Java | Swing | MySQL</p>
                 </div>
                 <div class="col-md-3 d-flex justify-content-center align-items-center">
-                  <a href="https://leandrolopesr.github.io/projeto_ipet_senac/" target="_blank" class="btn btn-info">
+                  <a href="https://github.com/leandrolopesr/ipetJAVA" target="_blank" class="btn btn-info">
                     Link <i class="fas fa-external-link-alt ml-2"></i>
                   </a>
                 </div>
@@ -180,21 +276,14 @@
 
       </div>
 
-      <a class="carousel-control-prev" href="#project-carousel" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Anterior</span>
-      </a>
-      <a class="carousel-control-next" href="#project-carousel" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Próximo</span>
-      </a>
+   
     </div>
   </div>
 </section>
 
 
 
-  <section id="contact" class="bg-light py-5">
+  <section id="contact" class="py-5">
     <div class="container">
       <h2 class="font-weight-bold">Contato</h2>
       <form>
@@ -222,8 +311,10 @@
   </footer>
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  
   <script src="./script/write.js"></script>
+  <script src="./script/skills.js"></script>
 </body>
 </html>

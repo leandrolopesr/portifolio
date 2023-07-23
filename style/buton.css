@@ -20,21 +20,21 @@
 
 
 .linkedin {
-  background-image: url('../assets/icons/linkedin.svg');
+  background-image: url('../assets/icons//buttons/linkedin.svg');
   background-repeat: no-repeat;
   background-size: 30px;
   background-position: 15px 40%; 
 }
 
 .github {
-  background-image: url('../assets/icons/github.svg');
+  background-image: url('../assets/icons/buttons/github.svg');
   background-repeat: no-repeat;
   background-size: 30px;
   background-position: 15px 40%; 
 }
 
 .link {
-  background-image: url('../assets/icons/box-arrow-up-right.svg');
+  background-image: url('../assets/icons/buttons/box-arrow-up-right.svg');
   background-repeat: no-repeat;
   background-size: 30px;
   background-position: 15px 40%; 
@@ -42,7 +42,7 @@
 }
 
 .pdf {
-  background-image: url('../assets/icons/download.svg');
+  background-image: url('../assets/icons/buttons/download.svg');
   background-repeat: no-repeat;
   background-size: 30px;
   background-position: 140px 50%; 

@@ -32,4 +32,4 @@ const textElement = document.querySelector('#text');
             eraseText(textElement);
         }, 3000); //troca de texto
 
-         
+
