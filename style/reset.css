@@ -4,7 +4,6 @@
 @import url(./light.css);
 @import url(./write/write.css);
 @import url(./cards/cardC.css);
-@import url(./cards/carrousel.css);
 
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
@@ -31,6 +30,9 @@
   font-family: 'Roboto Mono', monospace;
 }
 
+html{
+  scroll-behavior: smooth;
+}
 
 
 /* Sections

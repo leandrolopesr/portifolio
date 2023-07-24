@@ -9,17 +9,19 @@
   <link rel="stylesheet" href="./style/reset.css">
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
     <div class="container">
       <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav m-3">
+        <ul class="navbar-nav m-1">
+
           <li class="nav-item">
             <a class="nav-link font-weight-bold" href="#intro">Home</a>
           </li>
+          
           <li class="nav-item">
             <a class="nav-link font-weight-bold" href="#about">Sobre</a>
           </li>
@@ -28,9 +30,6 @@
           </li>
           <li class="nav-item">
             <a class="nav-link font-weight-bold" href="#projects">Projetos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link font-weight-bold" href="#contact">Contato</a>
           </li>
         </ul>
       </div>
@@ -105,7 +104,7 @@
   </section>
 
   <section id="skills" class="py-5">
-    <div class="container">
+    <div class="container py-5">
       <h2 class="font-weight-bold mb-4 text-center">Skills</h2>
       <div class="row py-4">
 
@@ -193,116 +192,65 @@
     </div>
   </section>
 
- <section id="projects" class="py-5 bg-light">
-  <div class="container">
-    <h2 class="font-weight-bold mb-4 text-center">Projetos</h2>
-    <div id="project-carousel" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#project-carousel" data-slide-to="0" class="active"></li>
-        <li data-target="#project-carousel" data-slide-to="1"></li>
-        <li data-target="#project-carousel" data-slide-to="2"></li>
-      </ol>
-
-      <div class="carousel-inner">
+  <section id="projects" class="py-4 bg-light">
+    <div class="container py-5">
+      <h2 class="font-weight-bold mb-3 text-center">Projetos</h2>
+      <div class="row py-4">
         <!-- Primeiro Card -->
-        <div class="carousel-item active">
-          <div class="card w-75 mx-auto">
-            <img class="card-img-top card-img-custom" src="./assets/banner/ipetSite.png" alt="Imagem do Card">
+        <div class="col-md-6 col-12 col-lg-4 mb-4">
+          <div class="card h-100">
+            <img class="card-img-top" src="./assets/banner/IpetSite.png" alt="Imagem do Card">
             <div class="card-body">
-        
-              <div class="row">
-                <div class="col-md-9">
-                  <h5 class="card-title"> <strong>IPET - Site de adoção de animais</strong></h5>
-                  <p class="card-text">Site criado para o projeto integrador do SENAC</p>
-                  <p>Técnologias: HTML | CSS | JavaScript | PHP | MySQL</p>
-                </div>
-                <div class="col-md-3 d-flex justify-content-center align-items-center">
-                  <a href="https://leandrolopesr.github.io/projeto_ipet_senac/" target="_blank" class="btn btn-info">
-                    Link <i class="fas fa-external-link-alt ml-2"></i>
-                  </a>
-                </div>
-              </div>
-        
+              <h5 class="card-title font-weight-bold">IPET - Site de adoção de animais</h5>
+              <p class="card-text">Site criado para o projeto integrador do SENAC</p>
+              <p>Tecnologias: HTML | CSS | JavaScript | PHP | MySQL</p>
+              
             </div>
+            <a href="https://leandrolopesr.github.io/projeto_ipet_senac/" target="_blank" class="btn btn-info m-3">
+              Link <i class="fas fa-external-link-alt "></i>
+            </a>
           </div>
         </div>
-
+  
         <!-- Segundo Card -->
-        <div class="carousel-item">
-          <div class="card w-75 mx-auto">
-            <img class="card-img-top card-img-custom" src="./assets/banner/steam.png" alt="Imagem do Card">
+        <div class="col-md-6 col-12 col-lg-4 mb-4">
+          <div class="card h-100">
+            <img class="card-img-top" src="./assets/banner/steam.png" alt="Imagem do Card">
             <div class="card-body">
-        
-              <div class="row">
-                <div class="col-md-9">
-                  <h5 class="card-title"> <strong>Steam Card</strong></h5>
-                  <p class="card-text">Pequeno projeto para aplicar meus conhecimentos</p>
-                  <p>Técnologias: HTML | CSS | JavaScript</p>
-                </div>
-                <div class="col-md-3 d-flex justify-content-center align-items-center">
-                  <a href="https://steam-card-sigma.vercel.app/" target="_blank" class="btn btn-info">
-                    Link <i class="fas fa-external-link-alt ml-2"></i>
-                  </a>
-                </div>
-              </div>
-        
+              <h5 class="card-title font-weight-bold mb-4 mt-2">Steam Card</h5>
+              <p class="card-text mb-4">Pequeno projeto para aplicar meus conhecimentos </p>
+              <p>Tecnologias: HTML | CSS | JavaScript</p>              
+              
             </div>
+            <a href="https://steam-card-sigma.vercel.app/" target="_blank" class="btn btn-info m-3">
+              Link <i class="fas fa-external-link-alt"></i>
+            </a>
           </div>
         </div>
-        
-
+  
         <!-- Terceiro Card -->
-        <div class="carousel-item">
-          <div class="card w-75 mx-auto">
-            <img class="card-img-top card-img-custom" src="./assets/banner/ipetJava.png" alt="Imagem do Card">
+        <div class="col-md-6 col-12 col-lg-4 mb-4">
+          <div class="card h-100">
+            <img class="card-img-top" src="./assets/banner/ipetJava.png" alt="Imagem do Card">
             <div class="card-body">
-        
-              <div class="row">
-                <div class="col-md-9">
-                  <h5 class="card-title"> <strong>IPET - Aplicação Desktop de Cadastro Para Canil</strong></h5>
-                  <p class="card-text">Aplicação  criada no 2º projeto integrador do SENAC</p>
-                  <p>Técnologias: Java | Swing | MySQL</p>
-                </div>
-                <div class="col-md-3 d-flex justify-content-center align-items-center">
-                  <a href="https://github.com/leandrolopesr/ipetJAVA" target="_blank" class="btn btn-info">
-                    Link <i class="fas fa-external-link-alt ml-2"></i>
-                  </a>
-                </div>
-              </div>
-        
+              <h5 class="card-title font-weight-bold">IPET - Java</h5>
+              <p class="card-text">Aplicação criada no projeto integrador do SENAC</p> 
+              <p>Tecnologias: Java | Swing | MySQL</p>
             </div>
+            <a href="https://github.com/leandrolopesr/ipetJAVA" target="_blank" class="btn btn-info m-3">
+              Link <i class="fas fa-external-link-alt"></i>
+            </a>
           </div>
         </div>
-
       </div>
-
-   
-    </div>
-  </div>
-</section>
-
-
-
-  <section id="contact" class="py-5">
-    <div class="container">
-      <h2 class="font-weight-bold">Contato</h2>
-      <form>
-        <div class="form-group">
-          <label for="name">Nome</label>
-          <input type="text" id="name" class="form-control">
-        </div>
-        <div class="form-group">
-          <label for="email">E-mail</label>
-          <input type="email" id="email" class="form-control">
-        </div>
-        <div class="form-group">
-          <label for="message">Mensagem</label>
-          <textarea id="message" class="form-control"></textarea>
-        </div>
-        <button type="submit" class="custom-button link">Enviar</button>
-      </form>
     </div>
   </section>
+  
+  
+
+
+
+ 
 
   <footer class="bg-light text-center py-3">
     <div class="container">
