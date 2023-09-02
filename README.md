@@ -20,7 +20,7 @@ O projeto está organizado da seguinte forma:
   
 ## Clique aqui para ser redirecionado para o portfólio
 
-Para visualizar meu portfólio completo, [clique aqui]([SEU_LINK_DO_PORTFOLIO](https://portifolio-sage-delta.vercel.app/).
+Para visualizar meu portfólio completo, [clique aqui](SEU_LINK_DO_PORTFOLIO](https://portifolio-sage-delta.vercel.app/).
 
 ## Personalização
 
