@@ -16,7 +16,7 @@ O projeto está organizado da seguinte forma:
 - **index.html**: Página principal que exibe o conteúdo do portfólio.
 - **styles/**: Diretório que contém os arquivos de estilo CSS.
 - **scripts/**: Diretório que contém os scripts JavaScript.
-- **assets/**: Diretório que contém recursos como imagens e ícones.
+- **assets/**: Diretório que contém recursos como imagens, ícones e arquivos.
   
 ## Clique aqui para ser redirecionado para o portfólio
 
