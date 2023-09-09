@@ -44,7 +44,7 @@ Em seguida, o serviço cuidará do processamento dos dados do formulário e do e
 
 5. Personalize os campos de formulário de acordo com suas necessidades.
 
-##Hospedagem no Netlify   
+## Hospedagem no Netlify   
 Para a hospedagem da minha landing page de portfólio, escolhi o Netlify que é um serviço de hospedagem web que facilita o processo de implantação de sites estáticos como o meu. [clique aqui](https://www.netlify.com/).
 
 
