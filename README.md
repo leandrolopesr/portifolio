@@ -28,7 +28,9 @@ Para a seção de contatos, foi utilizado o serviço FormSubmit para facilitar o
 
 o FormSubmit é um serviço que oferece uma API para processar e gerenciar formulários em sites e aplicativos da web.
 
-Para utilizá-lo, você precisa configurar um formulário HTML em seu site, apontar a ação do formulário para a URL fornecida pelo FormSubmit e, em seguida, o serviço cuidará do processamento dos dados do formulário e do envio das informações para o seu endereço de e-mail ou destino desejado.
+Para utilizá-lo, você precisa configurar um formulário HTML em seu site, apontar a ação do formulário para a URL fornecida pelo FormSubmit;
+
+Em seguida, o serviço cuidará do processamento dos dados do formulário e do envio das informações para o seu endereço de e-mail ou destino desejado.
 
 ### Passos para configurar o formulário de contato:
 
@@ -40,14 +42,10 @@ Para utilizá-lo, você precisa configurar um formulário HTML em seu site, apon
 
 4. Abra o arquivo `index.html` neste repositório e localize a seção de contato. Certifique-se de que o atributo `action` do elemento `<form>` aponte para a URL de destino fornecida pelo FormSubmit:
 
-   ```html
-<form action="https://your-url.formsubmit.co/..." method="POST">
-  <!-- Seus campos de formulário aqui -->
-  <button type="submit">Enviar</button>
-</form>
-
 5. Personalize os campos de formulário de acordo com suas necessidades.
 
+##Hospedagem no Netlify   
+Para a hospedagem da minha landing page de portfólio, escolhi o Netlify que é um serviço de hospedagem web que facilita o processo de implantação de sites estáticos como o meu. [clique aqui](https://www.netlify.com/).
 
 
 ## Personalização
