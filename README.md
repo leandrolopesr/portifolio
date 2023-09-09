@@ -32,17 +32,7 @@ Para utilizá-lo, você precisa configurar um formulário HTML em seu site, apon
 
 Em seguida, o serviço cuidará do processamento dos dados do formulário e do envio das informações para o seu endereço de e-mail ou destino desejado.
 
-### Passos para configurar o formulário de contato:
-
-1. Acesse o site Oficial [FormSubmit](https://formsubmit.co/).
-
-2. Siga as instruções para configurar seu primeiro projeto.
-
-3. Depois de configurar o projeto, você receberá uma URL de destino fornecida pelo FormSubmit. Esta URL será usada no seu formulário HTML.
-
-4. Abra o arquivo `index.html` neste repositório e localize a seção de contato. Certifique-se de que o atributo `action` do elemento `<form>` aponte para a URL de destino fornecida pelo FormSubmit:
-
-5. Personalize os campos de formulário de acordo com suas necessidades.
+Acesse o site Oficial [FormSubmit](https://formsubmit.co/).
 
 ## Hospedagem no Netlify   
 Para a hospedagem da minha landing page de portfólio, escolhi o Netlify que é um serviço de hospedagem web que facilita o processo de implantação de sites estáticos como o meu. [clique aqui](https://www.netlify.com/).
