@@ -1,5 +1,5 @@
 const textElement = document.querySelector('#text');
-        const textArray = ["Estudante", "Desenvolvedor"];
+        const textArray = ["Dev", "Desenvolvedor"];
         let currentIndex = 0;
 
         function typeWrite(elemento, texto, i = 0) { 
